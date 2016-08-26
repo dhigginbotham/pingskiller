@@ -1,5 +1,5 @@
 # PingSkiller
-Sign your friend up for the pingskills newsletter, this is really just a joke -- so please don't abuse this any further than your coworkers who suck at :pingpong:
+Sign your friend up for the pingskills newsletter, this is really just a joke -- so please don't abuse this any further than your coworkers who need some help at pingpong.
 
 Install globally! `npm i -g pingskiller`
 
@@ -15,5 +15,7 @@ Options:
 Examples:
   bin/pingskiller -f Ricky -l Bobby -e rbobby@edify.com
 ```
+
+----
 
 Made with &hearts;
