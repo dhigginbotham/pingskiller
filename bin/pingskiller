@@ -31,5 +31,6 @@ const req = {
 
 pingskiller(req, (err, success) => {
   if (err) throw new Error(err);
+  if (success) console.log('That will teach them :troll:');
   return success;
 });
