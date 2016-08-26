@@ -7,6 +7,7 @@ _or_ clone the repo:
 ```sh
 git clone git+ssh://git@github.com/dhigginbotham/pingskiller.git && \
 cd pingskiller/ && \
+npm i && \
 chmod +x bin/pingskiller && \
 bin/pingskiller -h
 ```

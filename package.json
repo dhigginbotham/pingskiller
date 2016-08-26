@@ -1,6 +1,6 @@
 {
   "name": "pingskiller",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "mostly for the lulz",
   "main": "index.js",
   "scripts": {
