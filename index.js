@@ -2,7 +2,6 @@ const request = require('request');
 const merge = require('lodash.merge');
 const log = require('debug')('pingskiller');
 
-
 const PING_SKILLS_SIGNUP_FORM = 'https://www.pingskills.com/membership-validate.php';
 
 const DEFAULT_FORM = {
