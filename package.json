@@ -1,10 +1,11 @@
 {
   "name": "pingskiller",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "mostly for the lulz",
   "main": "bin/pingskiller",
   "scripts": {
-    "test": "echo \"hahaha\""
+    "test": "echo \"hahaha\"",
+    "start": "node bin/pingskiller"
   },
   "repository": {
     "type": "git",
