@@ -1,6 +1,6 @@
 {
   "name": "pingskiller",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "mostly for the lulz",
   "main": "bin/pingskiller",
   "scripts": {
