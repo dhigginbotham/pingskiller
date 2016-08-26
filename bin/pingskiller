@@ -1,0 +1,35 @@
+#!/usr/bin/env node
+
+const pingskiller = require('../index');
+const argv = require('yargs')
+  .usage('Usage: $0 [options]')
+  .option('firstname', {
+    alias: 'f',
+    demand: true,
+    describe: 'first name of friend'
+  })
+  .option('lastname', {
+    alias: 'l',
+    demand: true,
+    describe: 'last name of friend'
+  })
+  .option('email', {
+    alias: 'e',
+    demand: true,
+    describe: 'email of friend'
+  })
+  .example('$0 -f Ricky -l Bobby -e rbobby@edify.com')
+  .help('help')
+  .alias('help', 'h')
+  .argv;
+
+const req = {
+  firstName: argv.firstname,
+  surname: argv.lastname,
+  email: argv.email,
+};
+
+pingskiller(req, (err, success) => {
+  if (err) throw new Error(err);
+  return success;
+});

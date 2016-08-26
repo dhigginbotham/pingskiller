@@ -1,0 +1,28 @@
+{
+  "name": "pingskiller",
+  "version": "1.0.0",
+  "description": "mostly for the lulz",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"hahaha\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dhigginbotham/pingskiller.git"
+  },
+  "keywords": [
+    "lulz"
+  ],
+  "author": "dhigginbotham",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dhigginbotham/pingskiller/issues"
+  },
+  "homepage": "https://github.com/dhigginbotham/pingskiller#readme",
+  "dependencies": {
+    "debug": "^2.2.0",
+    "lodash.merge": "^4.6.0",
+    "request": "^2.74.0",
+    "yargs": "^5.0.0"
+  }
+}
