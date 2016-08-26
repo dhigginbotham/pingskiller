@@ -1,6 +1,8 @@
 # PingSkiller
 Sign your friend up for the pingskills newsletter, this is really just a joke -- so please don't abuse this any further than your coworkers who suck at :pingpong:
 
+Install globally! `npm i -g pingskiller`
+
 ```sh
 Usage: bin/pingskiller [options]
 

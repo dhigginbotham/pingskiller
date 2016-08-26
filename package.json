@@ -2,7 +2,7 @@
   "name": "pingskiller",
   "version": "1.0.0",
   "description": "mostly for the lulz",
-  "main": "index.js",
+  "main": "bin/pingskiller",
   "scripts": {
     "test": "echo \"hahaha\""
   },
